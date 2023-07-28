@@ -1,0 +1,216 @@
+/* App.css */
+
+/* Main container */
+.Containerr {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation links */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FAEAF4;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Content container */
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Read-the-docs paragraph */
+.read-the-docs {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+/* AboutUs, GettingStarted, SignUp page styles (modify as needed) */
+.AboutUs,
+.GettingStarted,
+.SignUp {
+  padding: 20px;
+}
+
+/* Specific styles for each link in the navigation */
+.Container {
+  background-color: #007bff;
+}
+
+.Container2 {
+  background-color: #28a745;
+}
+
+.Container3 {
+  background-color: #dc3545;
+}
+
+.Container4 {
+  background-color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+/* Login.css */
+
+#sign {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #F8EBF4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#re {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+#register {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#form p {
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#error {
+  color: #dc3545;
+  margin: 10px 0;
+}
+
+#form5 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#form5:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* app.css */
+
+/* Styles for the "t" section */
+#t {
+  margin: 30px 0;
+  background-color: #0085fe;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Styles for the paragraph inside the "t" section */
+#t p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+/* Styles for the sign-in form container */
+#it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Styles for the form inputs */
+#form1, #form2 {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* Styles for the "Sign In" button in the form */
+#it button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Styles for the buttons in the "iy" section */
+#iy {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #6fd1a2;
+  
+}
+
+/* Styles for the buttons in the "iy" section */
+#iy button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Styles for the "Spelling" button */
+#iy button:nth-child(2) {
+  background-color: #f44336;
+}
+
+/* Styles for the "Practice Pronunciation" button */
+#iy button:nth-child(3) {
+  background-color: #555555;
+}
